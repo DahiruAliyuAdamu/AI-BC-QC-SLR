@@ -1,24 +1,20 @@
 # Triadic Convergence of AI, Blockchain, and Quantum Technologies: A Systematic Literature Review
 
-This repository provides the supporting materials for the systematic literature review (SLR) on the convergence of Artificial Intelligence (AI), Blockchain (BC), and Quantum Computing (QC). It is designed to improve transparency, reproducibility, and accessibility of the review process, including search strategy, screening records, coding framework, datasets, analysis scripts, figures, and supplementary materials.
+This repository contains the supporting materials for the systematic literature review (SLR) on the convergence of Artificial Intelligence (AI), Blockchain (BC), and Quantum Computing (QC). It is intended to support transparency, reproducibility, and reuse of the review workflow, coded dataset, analysis scripts, figures, and supplementary materials.
 
 ---
 
 ## Paper Overview
 
-The study investigates how AI, blockchain, and quantum technologies are being integrated across emerging digital systems. It examines integration patterns, application domains, technological maturity, validation practices, and reproducibility evidence in the AI–BC–QC literature.
+The study examines how AI, blockchain, and quantum technologies are integrated in emerging digital systems. It focuses on integration patterns, application domains, functional technology roles, maturity levels, validation rigor, and reproducibility evidence.
 
-The review is structured around three integration patterns:
-
-- **T1:** Quantum-enhanced AI for blockchain optimization  
-- **T2:** Blockchain-enabled governance for AI–quantum systems  
-- **T3:** AI-supported quantum-safe blockchain and post-quantum resilience  
+<p align="center">
+  <img src="outputs/figures/Triadic%20Synergy%20of%20AI-BC-QC.png" width="760"/>
+</p>
 
 ---
 
 ## Research Questions
-
-The review addresses the following research questions:
 
 1. What integration patterns characterize AI–Blockchain–Quantum convergence?
 2. What application domains and problem classes are most represented?
@@ -28,32 +24,36 @@ The review addresses the following research questions:
 
 ---
 
-## Methodological Workflow
-
-The review followed a PRISMA-style process covering database searching, deduplication, title and abstract screening, full-text eligibility assessment, quality assessment, coding, and synthesis.
-
-<p align="center">
-  <img src="outputs/figures/prisma_flow_diagram.png" width="750"/>
-</p>
-
----
-
 ## Integration Taxonomy
 
-The review classifies studies into three main AI–BC–QC integration patterns. This taxonomy supports consistent comparison across technical objectives, architectural roles, and maturity levels.
+The review classifies studies into three main integration patterns:
+
+- **T1:** Quantum-enhanced AI for blockchain optimization  
+- **T2:** Blockchain-enabled governance for AI–quantum systems  
+- **T3:** AI-supported quantum-safe blockchain and post-quantum resilience  
+
+---
+
+## Methodological Workflow
+
+The review followed a PRISMA-style workflow covering database searching, deduplication, title and abstract screening, full-text eligibility assessment, quality assessment, coding, and synthesis.
 
 <p align="center">
-  <img src="outputs/figures/integration_taxonomy_framework.png" width="750"/>
+  <img src="outputs/figures/PRISMA%20flowchart%20of%20the%20systematic%20literature%20process.png" width="760"/>
 </p>
 
 ---
 
-## Publication Trend
+## Maturity and Research Trajectory
 
-The publication trend highlights the growth of AI–BC–QC research over the review period.
+The review also examines how AI–BC–QC research is progressing from conceptual and simulation-based studies toward more mature, interoperable, and deployment-oriented systems.
 
 <p align="center">
-  <img src="outputs/figures/publication_trend.png" width="750"/>
+  <img src="outputs/figures/Evolution%20toward%20scalable%20and%20interoperable%20triadic%20systems.png" width="760"/>
+</p>
+
+<p align="center">
+  <img src="outputs/figures/Maturity%20gap%20between%20prototype%20validation%20and%20real-world%20deployment.png" width="760"/>
 </p>
 
 ---
@@ -118,18 +118,19 @@ QC-AI-BC-SLR/
 
 ## Data Description
 
-The repository includes cleaned metadata, coded review data, bibliometric data, keyword normalization records, and supplementary coding materials. The datasets support replication of the descriptive, bibliometric, maturity, validation, and reproducibility analyses.
+The repository includes cleaned metadata, coded review data, bibliometric data, keyword normalization records, and supplementary coding materials. These files support replication of descriptive, bibliometric, maturity, validation, and reproducibility analyses.
 
-Copyrighted full-text articles are not included. Only metadata, coding outputs, and review-derived materials are provided.
+Copyrighted full-text articles are not included. Only metadata, review-derived coding outputs, and supplementary materials are provided.
 
 ---
 
 ## Reproducibility
 
-To reproduce the analysis:
+To reproduce the analysis, install the required packages and run the analysis scripts:
 
 ```bash
 pip install -r requirements.txt
+
 python scripts/preprocess_metadata.py
 python scripts/publication_trend_analysis.py
 python scripts/integration_pattern_analysis.py
@@ -139,7 +140,7 @@ python scripts/reproducibility_analysis.py
 python scripts/generate_figures.py
 ```
 
-Detailed instructions are available in:
+Further instructions are provided in:
 
 ```text
 docs/how_to_run_analysis.md
@@ -150,16 +151,17 @@ docs/reproducibility_guide.md
 
 ## Key Outputs
 
-The main outputs include:
+The repository provides:
 
-- PRISMA screening diagram
+- PRISMA screening record
 - AI–BC–QC integration taxonomy
+- coded dataset of included studies
 - publication trend analysis
 - integration pattern distribution
-- domain mapping results
+- application domain mapping
 - technological maturity assessment
-- validation strategy analysis
-- reproducibility assessment
+- validation and reproducibility assessment
+- supplementary coding and quality assessment materials
 
 ---
 
