@@ -233,6 +233,18 @@ The repository provides:
 
 ---
 
+
+## Authors
+
+- Yahaya Saidu  
+- Shuhaida Mohamed Shuhidan  
+- Shehu Lukman Ayinla  
+- Isiaka Shuaibu  
+- Dahiru Adamu Aliyu  
+
+---
+
+
 ## Citation
 
 If you use this repository, please cite the associated paper and repository.
@@ -257,4 +269,9 @@ This repository is released for academic and research use. Please see the `LICEN
 
 ## Contact
 
-For questions about the dataset, screening process, coding framework, or reproducibility materials, please contact the corresponding author of the associated paper.
+**Corresponding Contact Person:**  
+Saidu Yahaya  
+Email: yahayasaidu17@gmail.com
+
+For questions regarding the dataset, screening workflow, coding framework, or reproducibility materials, please contact the repository maintainer.
+
